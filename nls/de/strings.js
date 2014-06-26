@@ -2,16 +2,17 @@
 /*global define */
 
 define({
+    "PANEL_TITLE"               : "Localization workflow",
     "SHOW_STATUS_CMD"           : "Zeige Lokalisierungsstatus",
     "STRING_HEADER"             : "Text",
     "STATUS_HEADER"             : "Status",
     "MISSING_STRING_DESC"       : "Diese Zeichenkette fehlt in der Sprachdatei",
     "UNUSED_STRING_DESC"        : "Diese Zeichenkette wird in der Hauptdatei nicht genutzt",
     "UNTRANSLATED_STRING_DESC"  : "Die beiden Zeichenketten in Haupt- und Sprachdatei scheinen gleich zu sein",
-    
+
     "IGNORE"        : "Ignorieren",
     "STOP_IGNORING" : "Nicht mehr ignorieren",
     "SHOW_IGNORED"  : "Ignorierte Texte anzeigen",
-    
+
     "ERROR_NLS_FOLDER_NOT_FOUND" : "Es konnte keine Basis-Lokalisierungs-Datei nls/root/strings.js gefunden werden!"
 });

@@ -2,9 +2,9 @@
 /*global define */
 
 define(function (require, exports, module) {
-    
+
     "use strict";
-    
+
     // Code that needs to display user strings should call require("strings") to load
     // src/strings.js. This file will dynamically load strings.js for the specified brackets.locale.
     //
@@ -15,6 +15,7 @@ define(function (require, exports, module) {
     module.exports = {
         root: true,
         "de": true,
-        "es": true
+        "es": true,
+        "fr": true
     };
 });
